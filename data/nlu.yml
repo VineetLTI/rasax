@@ -89,3 +89,15 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: give_time
+  examples: |
+    - time
+    - can you tell me the time?
+    - got the time?
+    - what time it is?
+
+- intent: hello_world
+  examples: |
+    - hello World
+    - do you have hello world?
