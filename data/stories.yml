@@ -28,7 +28,7 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-  
+
 - story: path about time
   steps:
   - intent: greet
@@ -42,3 +42,8 @@ stories:
   - action: utter_greet
   - intent: hello_world
   - action: action_hello_world
+
+- story: bank path
+  steps:
+  - intent: ask_balance
+  - action: action_balance_info

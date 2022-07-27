@@ -101,3 +101,9 @@ nlu:
   examples: |
     - hello World
     - do you have hello world?
+
+- intent: ask_balance
+  examples: |
+    - what is my balance ?
+    - how is my balance ?
+    - what about my balance ?

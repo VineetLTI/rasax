@@ -10,10 +10,12 @@ intents:
   - bot_challenge
   - give_time
   - hello_world
+  - ask_balance
 
 actions:
   - action_show_time
   - action_hello_world
+  - action_balance_info
 
 responses:
   utter_greet:
@@ -34,6 +36,9 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+  
+  utter_balance:
+    - text: "{final_message}"
 
 session_config:
   session_expiration_time: 60
